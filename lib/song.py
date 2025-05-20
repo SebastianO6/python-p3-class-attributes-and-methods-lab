@@ -42,3 +42,7 @@ class Song:
             cls.artist_count[artist] += 1
         else:
             cls.artist_count[artist] = 1
+
+
+Song("Night", "Frank Ocean", "RnB" )
+print(Song.genre_count)
